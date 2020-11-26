@@ -36,8 +36,8 @@ printf('Vastused on vastavad: %0.2f cm, mis on sentimeetrites ja %0.2f meetrit, 
 $tiitel_1 = '<h2>Siin on Kolmnurga tehted</h2>';
 echo $tiitel_1;
 
-$nurk_1 = 30;
-$nurk_2 = 20;
+$nurk_1 = 30; #alus
+$nurk_2 = 20; #kõrgus
 $nurk_3 = 10;
 
 $umbermoot = $nurk_1 + $nurk_2 + $nurk_3;
