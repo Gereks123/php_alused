@@ -20,3 +20,29 @@ printf('<br> Lahutamise vastus on = %d ja selle arvutus %d - %d', $lahutamine, $
 printf('<br> Korrutamise vastus on = %d ja selle arvutus %d * %d', $korrutamine, $arv_1, $arv_2);
 printf('<br> Jagamise vastus on = %d ja selle arvutus %d / %d', $jagamine, $arv_1, $arv_2);
 printf('<br> Jäägi vastus on = %d ja selle arvutus %d %s %d', $jaak, $arv_1, "%", $arv_2);
+
+$tiitel = '<h1>Siin on millimeetri tehted</h1>';
+
+echo $tiitel;
+
+$mm = 10;
+
+$cm = $mm / 10;
+
+$meeter = $mm / 1000;
+
+printf('Vastused on vastavad: %0.2f cm, mis on sentimeetrites ja %0.2f meetrit, mis on meetrites', $cm, $meeter);
+
+$tiitel_1 = '<h2>Siin on Kolmnurga tehted</h2>';
+echo $tiitel_1;
+
+$nurk_1 = 30;
+$nurk_2 = 20;
+$nurk_3 = 10;
+
+$umbermoot = $nurk_1 + $nurk_2 + $nurk_3;
+
+$pindala = 30 * 20;
+
+printf('Kolmnurga ümbermõõt on %d ning kolmnurga pindala on %d', $umbermoot, $pindala)
+;
