@@ -42,7 +42,7 @@ $nurk_3 = 10;
 
 $umbermoot = $nurk_1 + $nurk_2 + $nurk_3;
 
-$pindala = 30 * 20;
+$pindala = (30 * 20) / 2;
 
 printf('Kolmnurga ümbermõõt on %d ning kolmnurga pindala on %d', $umbermoot, $pindala)
 ;
