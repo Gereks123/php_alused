@@ -65,3 +65,5 @@ switch($KT){
     default:
         echo 'SISESTA OMA PUNKTID!';
 }
+
+
